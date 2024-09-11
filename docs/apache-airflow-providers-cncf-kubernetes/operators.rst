@@ -474,7 +474,7 @@ Next, create the task using the following:
         task_id="spark_task",
         image="gcr.io/spark-operator/spark-py:v3.1.1",  # OR custom image using that
         code_path="local://path/to/spark/code.py",
-        application_file="spark_job_template.json",  # OR spark_job_template.json
+        application_file="spark_job_template.yaml",  # OR spark_job_template.json
         dag=dag,
     )
 
